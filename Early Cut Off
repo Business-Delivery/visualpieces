@@ -1,0 +1,31 @@
+<!--Delivery Alert Style -->
+<style>
+.del-alert {
+width: 970px;
+padding: 0;
+background: #fcc200;
+border-radius: 3px;
+text-align: center;
+color: #000;
+font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+text-decoration: none;
+margin: 8px 0 -10px 0;
+}
+
+</style>
+
+<!-- Delivery Alert Content -->
+	<div class="del-alert">
+		<table colspan="2" style="padding: 0; margin: 0 auto;">
+        	<tr>
+            	<td>
+                	<div style="font-size: 50px; line-height: 50px;">&#9888;</div> <!-- ALERT SYMBOL -->
+                </td>
+                <td>
+                	<div class="underlinetext" style="display: inline;"> <!-- ALERT TEXT -->
+                    	<strong>Delivery Alert</strong>, Order by 1:30 p.m. for next-business-day delivery. Only applies to September 6.
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
